@@ -1,2 +1,2 @@
-# git-testing
-# This is basically a math game i'll be working on for a few days just to test how to use github to backup my code.
+# math-game-git-testing
+# This is basically a math game I'll be working on for a few days just to test how to use GitHub to back up my code.
