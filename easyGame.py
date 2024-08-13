@@ -13,6 +13,7 @@ def math_Easy_Generator():
 
 
 # Calculate the correct answer based on the operator
+#Todo: make most of the results be close to zero.
 def math_Easy_answer(num1, num2, operator):
     if operator == '+':
         return num1 + num2
@@ -21,7 +22,7 @@ def math_Easy_answer(num1, num2, operator):
 
 
 def math_Game_E():
-    print("Welcome to the math game at the easy difficulty level. You will be presented with questions involving addition and subtraction, which may include negative number results.")
+    print("\nDifficulty: Easy\nOperators: + and -\nNegative results: Yes")
     points = 0
 
     while True:
