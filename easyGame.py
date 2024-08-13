@@ -1,7 +1,7 @@
 import random
 
 
-# Randomly select an operator and a random number between 1 and 100
+# Randomly select an operator and a random number between 1 and 50
 def math_Easy_Generator():
     operators = ['+', '-']
     operator = random.choice(operators)
