@@ -21,21 +21,21 @@ def math_Basic_answer(num1, num2, operator):
 
 
 def math_Game_B():
-    print("Welcome to the math game at the easy difficulty level. You will be presented with questions involving addition and subtraction, which may include negative number results.")
+    print("\nDifficulty: Basic\nOperators: + and -\nNegative results: No")
     points = 0
 
     while True:
         num1, num2, operator = math_Basic_Generator()
         correct_answer = math_Basic_answer(num1, num2, operator)
 
-        print(f"What is {num1} {operator} {num2}?")
+        print(f"\nWhat is {num1} {operator} {num2}?")
         user_answer = int(input("Answer: "))
 
         if user_answer == correct_answer:
             print("Correct!")
             points += 1
         else:
-            print(f"Incorrect! The correct answer is {correct_answer}.")
+            print(f"\nIncorrect! The correct answer is {correct_answer}.")
             break
 
     print(f"You scored {points} points.")
