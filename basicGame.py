@@ -7,7 +7,7 @@ def math_Basic_Generator():
     operator = random.choice(operators)
 
     num1 = random.randint(1, 30)
-    num2 = random.randint(1, num1) if operator == '-' else random.randint(1,30)
+    num2 = random.randint(1, num1) if operator == '-' else random.randint(1, 30)
 
     return num1, num2, operator
 
